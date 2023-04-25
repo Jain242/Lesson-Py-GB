@@ -30,10 +30,16 @@
 
 
 # def sum(a,b):
-#     if b == 0 and a== 0:
-#         return 0
+#     if b > 0 :
+#         return 1 + sum(a,b-1)
 #     else:
-#         return 1 + 1  + sum(a-1,b-1)
+#         if a > 0:
+#             return  1  + sum(a-1, 0)
+            
+#         else:
+#             return 0
+    
+    
 
 # print("Задача 28")
 # n=-1
